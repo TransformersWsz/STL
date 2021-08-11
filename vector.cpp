@@ -18,6 +18,7 @@ int main()
       vec.push_back(i);
       cout << "extended vector capacity = " << vec.capacity() << endl;
    }
+   // 上述触发了4次扩容：1->2->4->8
 
    // 显示 vec 扩展后的大小
    cout << "extended vector size = " << vec.size() << endl;
